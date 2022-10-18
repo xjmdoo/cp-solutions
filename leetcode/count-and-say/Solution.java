@@ -20,7 +20,6 @@ class Solution {
                 res.append(current);
             } else if (current == nums.charAt(i + 1)) {
                 count++;
-                continue;
             } else {
                 res.append(count);
                 res.append(current);
