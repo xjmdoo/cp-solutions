@@ -11,7 +11,6 @@ class Solution {
 
     public String calc(String nums) {
         char current = 'a';
-        boolean first = true;
         int count = 1;
         StringBuilder res = new StringBuilder("");
         for (int i = 0; i < nums.length(); i++) {
